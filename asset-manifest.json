@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tags-finder/static/css/main.1b55287c.css",
+    "main.js": "/tags-finder/static/js/main.e560a7d2.js",
+    "index.html": "/tags-finder/index.html",
+    "main.1b55287c.css.map": "/tags-finder/static/css/main.1b55287c.css.map",
+    "main.e560a7d2.js.map": "/tags-finder/static/js/main.e560a7d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b55287c.css",
+    "static/js/main.e560a7d2.js"
+  ]
+}
