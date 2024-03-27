@@ -23,7 +23,6 @@ export default function BasicPagination() {
         let total = Math.ceil(data / tagsPerPage);
         total = total > 25 ? 25 : total;
         setTotalPages(total);
-        console.log('total', totalPages);
       } catch (error) {
         console.error(error);
         if (error instanceof Error && error.message) {

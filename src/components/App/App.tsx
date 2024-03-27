@@ -29,7 +29,6 @@ function App() {
       try {
         setLoading(true);
         const data = await getTags(pageNumber, tagsPerPage, order, sortBy);
-        console.log(data);
         setPageTags(data);
       } catch (error) {
         console.error(error);
