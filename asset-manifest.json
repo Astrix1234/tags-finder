@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/tags-finder/static/css/main.146d2b5a.css",
-    "main.js": "/tags-finder/static/js/main.047833d1.js",
+    "main.js": "/tags-finder/static/js/main.c7b38d50.js",
     "index.html": "/tags-finder/index.html",
     "main.146d2b5a.css.map": "/tags-finder/static/css/main.146d2b5a.css.map",
-    "main.047833d1.js.map": "/tags-finder/static/js/main.047833d1.js.map"
+    "main.c7b38d50.js.map": "/tags-finder/static/js/main.c7b38d50.js.map"
   },
   "entrypoints": [
     "static/css/main.146d2b5a.css",
-    "static/js/main.047833d1.js"
+    "static/js/main.c7b38d50.js"
   ]
 }
