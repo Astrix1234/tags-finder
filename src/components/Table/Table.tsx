@@ -10,15 +10,15 @@ export const Table = () => {
       <table className={scss.table}>
         <thead>
           <tr>
-            <th>TAG</th>
-            <th>POSTS COUNT</th>
+            <th className={scss.table__tags}>TAG</th>
+            <th className={scss.table__posts}>POSTS COUNT</th>
           </tr>
         </thead>
         <tbody>
           {pageTags.map((tag: Tag) => (
             <tr key={uuidv4()}>
-              <td>{tag.name}</td>
-              <td>{tag.count}</td>
+              <td className={scss.table__tags}>{tag.name}</td>
+              <td className={scss.table__posts}>{tag.count}</td>
             </tr>
           ))}
         </tbody>

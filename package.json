@@ -16,21 +16,16 @@
     "@types/react": "^18.2.67",
     "@types/react-dom": "^18.2.22",
     "axios": "^1.6.8",
-    "formik": "^2.4.5",
     "modern-normalize": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-helmet-async": "^2.0.4",
     "react-loader-spinner": "^6.1.6",
     "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
     "react-toastify": "^10.0.5",
     "sass": "^1.72.0",
-    "styled-components": "^6.1.8",
-    "typescript": "^4.9.5",
     "uuid": "^9.0.1",
     "web-vitals": "^2.1.4",
-    "yup": "^1.4.0",
     "zustand": "^4.5.2"
   },
   "scripts": {
@@ -39,7 +34,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "eslintConfig": {
     "extends": [
@@ -61,6 +58,17 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@chromatic-com/storybook": "^1.2.25",
+    "@storybook/addon-essentials": "^8.0.4",
+    "@storybook/addon-interactions": "^8.0.4",
+    "@storybook/addon-links": "^8.0.4",
+    "@storybook/addon-onboarding": "^8.0.4",
+    "@storybook/blocks": "^8.0.4",
+    "@storybook/preset-create-react-app": "^8.0.4",
+    "@storybook/react": "^8.0.4",
+    "@storybook/react-webpack5": "^8.0.4",
+    "@storybook/test": "^8.0.4",
+    "@types/cross-spawn": "^6.0.6",
     "@types/uuid": "^9.0.8",
     "@typescript-eslint/eslint-plugin": "^5.5.0",
     "@typescript-eslint/parser": "^5.5.0",
@@ -68,6 +76,11 @@
     "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "gh-pages": "^6.1.1"
+    "eslint-plugin-storybook": "^0.8.0",
+    "gh-pages": "^6.1.1",
+    "prop-types": "^15.8.1",
+    "storybook": "^8.0.4",
+    "typescript": "^4.5.5",
+    "webpack": "^5.91.0"
   }
 }
