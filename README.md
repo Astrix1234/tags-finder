@@ -2,12 +2,12 @@
 
 The task involves implementing a application with a single view. The application
 utilizes an available API endpoint to display a paginated list of tags. In the
-interface, users can filter tags by their identifier using the fields at the top
-of the view. The list of tags is presented in a table, showing the name and
-posts count of each tag. Pagination allows tags to be viewed in the number per
-page selected by the user, with users navigating between pages using "next" and
-"previous" arrows. Handling API errors is crucial - in case of an erroneous
-response, users are notified of the issue.
+interface, users can filter and sort tags using the fields at the top of the
+view. The list of tags is presented in a table, showing the name and posts count
+of each tag. Pagination allows tags to be viewed in the number per page selected
+by the user, with users navigating between pages using "next" and "previous"
+arrows. Handling API errors is crucial - in case of an erroneous response, users
+are notified of the issue.
 
 <img src="/public/Screenshot.png"  />
 
