@@ -3,6 +3,10 @@ import { create } from 'zustand';
 export interface Tag {
   name: string;
   count: number;
+  last_activity_date: number;
+  has_synonyms?: boolean;
+  is_moderator_only?: boolean;
+  is_required?: boolean;
 }
 
 interface StoreState {
